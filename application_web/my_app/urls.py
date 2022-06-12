@@ -5,7 +5,7 @@ from . import views
 app_name = 'my_app'
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('index', views.index, name='index'),
     path('topics/<int:topic_id>/', views.topic, name='topic'),
 ]
 

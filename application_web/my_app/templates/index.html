@@ -1,4 +1,4 @@
-{% extends 'my_app/base.html' %}
+{% extends 'base.html' %}
  
 {% block content %}
  
@@ -7,7 +7,7 @@
 	{% for topic in topics %}
 		<p>
 			<strong>
-				<a href="/topics/{{ topic.id }}/">
+				<a href="/my_app/topics/{{ topic.id }}/">
 					{{topic.text}}
 				</a>
 			</strong>

@@ -11,7 +11,7 @@ def index(request):
         'topics': topics,
     }
     return render(request,
-                  'my_app/index.html', context)
+                  'index.html', context)
 
 
 @login_required
@@ -25,4 +25,4 @@ def topic(request, topic_id):
         'entries': entries,
     }
     return render(request,
-                  'my_app/topic.html', context)
+                  'topic.html', context)
