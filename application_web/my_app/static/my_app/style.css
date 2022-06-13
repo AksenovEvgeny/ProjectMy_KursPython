@@ -1,10 +1,10 @@
 body {
-	font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+  font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
 }
 a:link, a:visited {
-	color: #447e9b;
+  color: #447e9b;
     text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
 }
 a:focus, a:hover {
     color: #036;
@@ -13,23 +13,39 @@ a:focus, a:hover {
 a:focus {
     text-decoration: underline;
 }
+
+.g-container {
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
 div.header {
-	background-color: #f2f2f2;;
-	padding: 20px;
+  background-color: #f2f2f2;;
+  padding: 20px;
 }
 
 div.header > p {
-	text-align: center;
-	font-size: 23px;
+  text-align: center;
+  font-size: 23px;
 }
 
 div.header + h3 {
-	margin-top: 5px;
-	padding: 8px;
-	font-size: 13px;
-	text-align: left;
-	background: #79aec8;
-	color: #fff;
-	letter-spacing: 0.5px;
-	text-transform: uppercase;
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 13px;
+  text-align: left;
+  background: #79aec8;
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
+
+.timetable-page {
+    padding: 20px 0;
+}
+
+.timetable-page .timetable-box {
+    align-items: center;
